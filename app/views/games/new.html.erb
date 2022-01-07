@@ -10,3 +10,6 @@
   <input type="hidden" name="letters" value="<%= @letters %>">
   <input type="submit" value="Play">
 </form>
+
+<p>Max Score = <%= @score.to_i %></p>
+<%= link_to "Reset", reset_path %>
